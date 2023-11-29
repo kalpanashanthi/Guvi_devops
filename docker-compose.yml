@@ -1,0 +1,8 @@
+version: '3'  # Use the appropriate version of Docker Compose
+
+services:
+  web:
+    image: kalpana:latest  # Use the latest Nginx image from Docker 
+    container_name: docker
+    ports:
+      - "80:80"  # Map container port 80 to host port 8080
